@@ -135,14 +135,11 @@ Git doesn't have a direct `logout` command. Access is managed via your OS Creden
 | `git reset --hard <commit-hash>` | **WARNING:** Reset everything to a specific commit. All local changes will be lost. |
 | `git push -f origin <branch>` | **WARNING:** Force push changes to remote (use with caution). |
 
-### 🛠️ Restore Working Directory to a Specific Commit
-To replace all files with the state from a specific commit without moving the branch pointer:
+### 🔄 Reset Branch to a Specific Commit
+To reset your local branch and remote repository back to a specific commit:
 ```bash
-git checkout <branch-name>
-git checkout <commit-hash> -- .
-git add .
-git commit -m "Revert code to commit <commit-hash>"
-git push origin <branch-name>
+git reset --hard <commit-hash>      # WARNING: Reset everything to a specific commit. All local changes will be lost.
+git push -f origin <branch-name>    # WARNING: Force push changes to remote (use with caution).
 ```
 
 ---
