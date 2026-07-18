@@ -6,18 +6,19 @@ A comprehensive, organized, and user-friendly collection of commonly used Git co
 
 ## 📑 Table of Contents
 
-- [🛠️ Setup & Configuration](#setup--configuration)
-- [👤 User Identity & Authentication](#user-identity--authentication)
+- [🛠️ Setup & Configuration](#setup-configuration)
+- [👤 User Identity & Authentication](#user-identity-authentication)
 - [📝 Basic Workflow](#basic-workflow)
-- [🌿 Branching & Merging](#branching--merging)
-- [📦 Stashing & Cleaning](#stashing--cleaning)
-- [🔍 Inspection & Comparison](#inspection--comparison)
-- [🚨 Undo & Recover (The "Panic" Section)](#undo--recover-the-panic-section)
+- [🌿 Branching & Merging](#branching-merging)
+- [📦 Stashing & Cleaning](#stashing-cleaning)
+- [🔍 Inspection & Comparison](#inspection-comparison)
+- [🚨 Undo & Recover (The "Panic" Section)](#undo-recover-panic-section)
 - [🚀 Remote Repository Management](#remote-repository-management)
 - [🛠️ Advanced Operations](#advanced-operations)
 
 ---
 
+<a id="setup-configuration"></a>
 ## 🛠️ Setup & Configuration
 
 | Command | Description |
@@ -31,6 +32,7 @@ A comprehensive, organized, and user-friendly collection of commonly used Git co
 
 ---
 
+<a id="user-identity-authentication"></a>
 ## 👤 User Identity & Authentication
 
 | Command | Description |
@@ -61,6 +63,7 @@ Git doesn't have a direct `logout` command. Access is managed via your OS Creden
 ---
 
 
+<a id="basic-workflow"></a>
 ## 📝 Basic Workflow
 
 | Command | Description |
@@ -75,6 +78,7 @@ Git doesn't have a direct `logout` command. Access is managed via your OS Creden
 
 ---
 
+<a id="branching-merging"></a>
 ## 🌿 Branching & Merging
 
 | Command | Description |
@@ -92,6 +96,7 @@ Git doesn't have a direct `logout` command. Access is managed via your OS Creden
 
 ---
 
+<a id="stashing-cleaning"></a>
 ## 📦 Stashing & Cleaning
 
 | Command | Description |
@@ -106,6 +111,7 @@ Git doesn't have a direct `logout` command. Access is managed via your OS Creden
 
 ---
 
+<a id="inspection-comparison"></a>
 ## 🔍 Inspection & Comparison
 
 | Command | Description |
@@ -118,6 +124,7 @@ Git doesn't have a direct `logout` command. Access is managed via your OS Creden
 
 ---
 
+<a id="undo-recover-panic-section"></a>
 ## 🚨 Undo & Recover (The "Panic" Section)
 
 | Command | Description |
@@ -140,6 +147,7 @@ git push origin <branch-name>
 
 ---
 
+<a id="remote-repository-management"></a>
 ## 🚀 Remote Repository Management
 
 | Command | Description |
@@ -151,6 +159,7 @@ git push origin <branch-name>
 
 ---
 
+<a id="advanced-operations"></a>
 ## 🛠️ Advanced Operations
 
 ### 🔄 Sync with Master (via Rebase)
